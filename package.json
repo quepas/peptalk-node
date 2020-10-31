@@ -2,6 +2,8 @@
   "name": "@quepas/peptalk",
   "version": "0.1.0",
   "description": "peptalk for the node.js",
+  "author": "quepas",
+  "license": "MIT",
   "main": "index.js",
   "dependencies": {
     "cmake-js": "^6.1.0",
