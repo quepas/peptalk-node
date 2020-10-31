@@ -20,8 +20,6 @@ jobs:
         sudo apt install gcc-9 g++-9 -y
     - name: "Checkout the repository"
       uses: actions/checkout@v2
-    - name: "Checkout submodules"
-      run: git submodule update --init --recursive
     - name: "Setup Node.js"
       uses: actions/setup-node@v1
       with:

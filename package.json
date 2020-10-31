@@ -8,6 +8,7 @@
     "node-addon-api": "^3.0.2"
   },
   "scripts": {
+    "preinstall": "git submodule update --init --recursive",
     "install": "cmake-js compile",
     "test": "node test.js"
   },
