@@ -1,0 +1,21 @@
+{
+  "name": "@quepas/peptalk",
+  "version": "0.0.1",
+  "description": "peptalk for the node.js",
+  "main": "index.js",
+  "dependencies": {
+    "cmake-js": "^6.1.0",
+    "node-addon-api": "^3.0.2"
+  },
+  "scripts": {
+    "install": "cmake-js compile",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quepas/peptalk-node.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
+}

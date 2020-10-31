@@ -1,0 +1,3 @@
+[submodule "third-party/peptalk-core"]
+	path = third-party/peptalk-core
+	url = https://github.com/quepas/peptalk-core.git
